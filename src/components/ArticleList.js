@@ -14,7 +14,6 @@ function ArticleList({posts}) {
         <main>
             {posts.map((post) => {
                 return  <Article key={post.id} title={post.title} date={post.date} minutes={post.minutes} preview={post.preview}/>})}
-
         </main>
 
     )
